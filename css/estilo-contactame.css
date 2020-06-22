@@ -1,0 +1,226 @@
+.contenido{
+	margin: 200px auto;
+	width: 85%;
+	position: relative;
+}
+
+.texto{
+	width: 60%;
+}
+
+.contenido h3{
+	position: absolute;
+	z-index: -1;
+	font-size: 200px;
+	color:#c4c4c4;
+	top: -140px;
+	left:-100px;
+	letter-spacing: 5px;
+}
+
+.contenido > img{
+	position: absolute;
+	width: 40%;
+	right: -5em;
+	top: 7em;
+}
+
+.texto{
+	margin-bottom: 600px;
+}
+
+.texto h2{
+	margin-bottom: 40px;
+	font-size: 40px;
+}
+
+/*redes*/
+
+.redes{
+	width: 100%;
+	text-align: center;
+	position: relative;
+	margin-bottom: 100px;
+}
+
+.redes-contenedor{
+	width: 100%;
+	text-align: center;
+}
+.redes-contenedor ul{
+	list-style: none;
+	display: flex;
+	margin: 0px 380px 0px 380px;
+	
+}
+
+
+.redes-contenedor a{
+	padding: 20px;
+	margin-left: 60px; 
+	font-size: 35px;
+	box-shadow: 0px 3px 5px #000;
+	background: #fff;
+	border-radius:25px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.icon-facebook2{
+	color:rgb(0, 69, 148);
+	background: #fff;
+	cursor: pointer;
+}
+
+.icon-instagram1{
+color:#9a086b;
+cursor: pointer;
+}
+
+.icon-whatsapp{
+	color:#25d366;
+	cursor: pointer;
+}
+
+.icon-google{
+	color: #D44638;
+	cursor: pointer;
+}
+
+
+/*responsive*/
+
+
+/*telefonos S y M*/
+
+@media screen and (max-width: 375px){
+
+	html{
+	width: 200vh;
+	}
+	.contenido h3{
+	font-size: 160px;
+	}
+
+	.contenido h2{
+		font-size: 60px;
+	}
+	.contenido p{
+		font-size: 25px;
+		text-align: justify;
+	}
+
+	.texto{
+		width: 70%;
+		margin-bottom: 900px;
+	}
+
+	.contenido img{
+		right: -6em;
+	}
+
+	.redes-contenedor ul{
+	list-style: none;
+	display: flex;
+	margin: 0px 240px 0px 240px;
+	
+}
+
+}
+
+
+
+/*telefonos G y tablas S*/
+
+@media screen and (min-width: 425px) and (max-width: 500px){
+html{
+	width: 200vh;
+	}
+	.contenido h3{
+	font-size: 160px;
+	}
+	.contenido h2{
+		font-size: 60px;
+	}
+	.contenido p{
+		font-size: 35px;
+	}
+
+	.texto{
+		width: 70%;
+		margin-bottom: 900px;
+	}
+
+	.contenido img{
+		right: -18em;
+		width: 60%;
+		top: 20%;
+	}
+
+	.redes-contenedor ul{
+	list-style: none;
+	display: flex;
+	margin: 0px 240px 0px 240px;
+	
+}
+
+}
+
+/*tablas*/
+
+@media screen and (max-width: 768px){
+html{
+	width: 200vh;
+	}
+	.contenido h3{
+	font-size: 160px;
+	}
+	.contenido h2{
+		font-size: 60px;
+	}
+	.contenido p{
+		font-size: 35px;
+	}
+
+	.texto{
+		width: 70%;
+		margin-bottom: 900px;
+	}
+
+	.contenido img{
+		right: -18em;
+		width: 60%;
+		top: 20%;
+	}
+
+	.redes-contenedor ul{
+	list-style: none;
+	display: flex;
+	margin: 0px 240px 0px 240px;
+	
+}
+}
+
+/*laptops*/
+
+@media screen and (max-width: 1024px){
+
+	.contenido h3{
+	font-size: 160px;
+	}
+	
+
+	.texto{
+		width: 70%;
+		margin-bottom: 900px;
+	}
+
+	
+
+	.redes-contenedor ul{
+	list-style: none;
+	display: flex;
+	margin: 0px 220px 0px 220px;
+	
+}
+}

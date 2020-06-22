@@ -1,0 +1,332 @@
+#header{
+	position: absolute;
+	top: 0;
+	z-index: -1;
+}
+
+.contenido{
+	position: relative;
+}
+
+/*paquetes texto*/
+
+.paquetes{
+	margin: 150px 100px 0px 100px;
+	position: relative;
+}
+
+#texto{
+	width: 55%;
+	margin-bottom: 700px;
+}
+
+.paquetes img{
+	width: 550px; 
+	position: absolute;
+	top: 0;
+	right: -5em;
+}
+
+#texto h3{
+	position: absolute;
+	z-index: -1;
+	font-size: 200px;
+	color:#c4c4c4;
+	letter-spacing: -15px;
+	top:-140px;
+	left:-100px;
+}
+
+#texto h2{
+	font-size: 35px;
+	margin-bottom: 30px;
+}
+
+#texto a{
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	border: 2px solid #10375c;
+	color: #10375c;
+	cursor: pointer;
+	border-radius: 5px;
+	background: #fff;
+}
+
+#texto a:hover{
+	background: #10375c;
+	color:#fff;
+	transition: .3s;
+}
+
+.contenido > h3{
+	font-size: 65px;
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	transform: translateY(-50%);
+	font-weight: 300;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+
+
+
+/*paquetes tarjetas*/
+
+.tarjetas-contenedor{
+	position: relative;
+	width: 70%;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 50px;
+	margin: 150px 240px 0px 240px;
+	margin-bottom: 150px;
+}
+
+.tarjeta{
+	width:250px;
+	box-shadow: 0px 0px 3px #000;
+	position: relative;
+	border-radius: 24px;
+	overflow: hidden;
+	transition: .3s;
+}
+
+.tarjeta img{
+	width: 100%;
+	object-fit: cover;
+	border-top-right-radius: 24px;
+	border-top-left-radius: 24px;  
+}
+
+.tarjeta p{
+	text-align: center;
+	padding: 20px;
+}
+
+.tarjeta h2{
+	text-align: center;
+}
+
+.tarjeta a{
+	text-align: center;
+	padding: 10px 15px 10px 15px;
+	text-decoration: none;
+	color: #303030;
+	border: 2px solid #10375c;
+	width: 30%;
+	border-radius: 5px;
+	transition: .2s ease-out;
+}
+
+.tarjeta a:hover{
+	background: #10375c;
+	color:#fff;
+	cursor: pointer;
+}
+
+.tarjeta:hover{
+	transform: translateY(-15px);
+	transition: .3s;
+	box-shadow: 3px 0px 5px #000;
+}
+
+/*resposive*/
+
+/*telefonos*/
+
+@media screen and (max-width: 375px){
+html{
+	width: 200vh;
+}
+
+.paquetes img{
+	width: 450px; 
+	position: absolute;
+	top: 0;
+	right: -5em;
+}
+
+#texto h3{
+	position: absolute;
+	z-index: -1;
+	font-size: 160px;
+	color:#c4c4c4;
+	letter-spacing: -15px;
+	top:-110px;
+	left:-100px;
+}
+
+.contenido > h3{
+	font-size: 50px;
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	transform: translateY(-50%);
+	font-weight: 300;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+
+.tarjetas-contenedor{
+	position: relative;
+	width: 70%;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 50px;
+	margin: 150px 110px 0px 110px;
+	margin-bottom: 150px;
+}
+
+
+}
+
+/*telefonos G y tablas S*/
+
+@media screen and (min-width: 425px) and (max-width: 500px){
+html{
+	width: 200vh;
+}
+
+.paquetes img{
+	width: 600px; 
+	position: absolute;
+	top: 20em;
+	right: -5em;
+}
+
+#texto h3{
+	position: absolute;
+	z-index: -1;
+	font-size: 160px;
+	color:#c4c4c4;
+	letter-spacing: -15px;
+	top:-110px;
+	left:-100px;
+}
+
+#texto h2{
+	font-size: 60px;
+}
+
+#texto p{
+	font-size: 30px;
+	margin-bottom: 800px;
+}
+
+.contenido > h3{
+	font-size: 50px;
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	transform: translateY(-50%);
+	font-weight: 300;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+
+.tarjetas-contenedor{
+	position: relative;
+	width: 70%;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 50px;
+	margin: 150px 110px 0px 110px;
+	margin-bottom: 150px;
+}
+
+
+}
+
+/*tablas*/
+
+@media screen and (min-width: 500px) and (max-width: 768px){
+html{
+	width: 200vh;
+}
+
+.paquetes img{
+	width: 450px; 
+	position: absolute;
+	top: 0;
+	right: -5em;
+}
+
+#texto h3{
+	position: absolute;
+	z-index: -1;
+	font-size: 160px;
+	color:#c4c4c4;
+	letter-spacing: -15px;
+	top:-110px;
+	left:-100px;
+}
+
+.contenido > h3{
+	font-size: 50px;
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	transform: translateY(-50%);
+	font-weight: 300;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+
+.tarjetas-contenedor{
+	position: relative;
+	width: 70%;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 50px;
+	margin: 150px 110px 0px 110px;
+	margin-bottom: 150px;
+}
+
+
+}
+
+/*laptops*/
+
+@media screen and (max-width: 1024px){
+
+.paquetes img{
+	width: 450px; 
+	position: absolute;
+	top: 0;
+	right: -5em;
+}
+
+#texto h3{
+	position: absolute;
+	z-index: -1;
+	font-size: 160px;
+	color:#c4c4c4;
+	letter-spacing: -15px;
+	top:-110px;
+	left:-100px;
+}
+
+.contenido > h3{
+	font-size: 50px;
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	transform: translateY(-50%);
+	font-weight: 300;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+
+.tarjetas-contenedor{
+	position: relative;
+	width: 70%;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 50px;
+	margin: 150px 110px 0px 110px;
+	margin-bottom: 150px;
+}
+
+
+}

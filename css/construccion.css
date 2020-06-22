@@ -1,0 +1,256 @@
+*{
+	margin:0px;
+	padding: 0;
+	font-family: sans-serif;
+	cursor: default;
+}
+
+body{
+	background: linear-gradient(120deg,#00abf0,#1da1f2 , #eee);
+	box-sizing: border-box;
+	position: relative;
+}
+
+.contenido{
+	width: 100%;
+}
+
+.contenido h1{
+	font-size: 55px;
+	font-weight: 300;
+	text-align:center;
+	color:white;
+}
+
+.contenido h2{
+	font-size: 40px;
+	font-weight: 300;
+	text-align:center;
+	color:white;
+	width:85%;
+	margin: 50px auto 80px auto;
+}
+
+.contenido p{
+	color: white;
+	font-size: 30px;
+	width:65%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+/*linea*/
+
+.linea{
+	border: 3px solid whitesmoke;
+	width: 65%;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
+/*redes sociales*/
+
+.redes{
+	position: absolute;
+	top: 175%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+}
+
+.redes ul{
+	display: flex;
+	list-style: none;
+}
+
+.redes ul li{
+	padding:5px;
+}
+
+.redes ul li a{
+	color:#fff;
+	background: #303030;
+	padding: 15px;
+	font-size:20px;
+	text-decoration: none;
+	border-radius: 100%;
+	box-shadow: 0px 1px 3px #000;
+	transition: .5s;
+	cursor: pointer;
+}
+
+#a:hover{
+	background: linear-gradient(230deg,#fff , #eee);
+}
+
+#a:hover  .icon-facebook2{
+	color:rgb(0, 69, 148);
+	background: #fff;
+	transition: .2s;
+}
+
+#b:hover{
+	background: linear-gradient( 150deg ,#8a3ab9 , #bc2a8d, #fccc63 , #fbad50 );
+}
+
+#c:hover{
+	background: linear-gradient(150deg,#075e54, #25d366 , #eee);
+}
+
+
+/*footer*/
+
+footer{
+	margin: 100px auto;
+	text-align: center;
+
+
+}
+
+footer h4{
+	font-weight: 300;
+}
+
+/*responsive telefono*/
+@media screen and (max-width:425px){
+	body{
+		max-width: 425px;
+	}
+	.contenido{
+		width: 100%;
+	}
+
+	.contenido h1{
+		font-size: 30px;
+	}
+
+	.contenido h2{
+		font-size: 20px;
+	}
+
+	.contenido p{
+		font-size: 15px;
+	}
+
+	.contenido img{
+		min-width: 150px;
+		max-width: 390px;
+	}
+
+	/*redes telefono*/
+
+	.redes{
+		position: absolute;
+		top: 83%;
+		left: 50%;
+		transform: translate(-50% , -50%);
+	}
+}
+
+@media screen and (max-width:375px){
+	body{
+		max-width: 375px;
+	}
+	.contenido{
+		width: 100%;
+	}
+
+	.contenido h1{
+		font-size: 25px;
+	}
+
+	.contenido h2{
+		font-size: 20px;
+	}
+
+	.contenido p{
+		font-size: 15px;
+	}
+
+	.contenido img{
+		min-width: 150px;
+		max-width: 350px;
+	}
+
+	/*redes telefono*/
+
+	.redes{
+		position: absolute;
+		top: 83%;
+		left: 50%;
+		transform: translate(-50% , -50%);
+	}
+}
+
+/*responsive tablas*/
+
+@media screen and (max-width:768px){
+	body{
+		max-width: 768px;
+	}
+	.contenido{
+		width: 100%;
+	}
+
+	.contenido h1{
+		font-size: 35px;
+	}
+
+	.contenido h2{
+		font-size: 20px;
+	}
+
+	.contenido p{
+		font-size: 15px;
+	}
+
+	.contenido img{
+		width:730px;
+	}
+
+	/*redes telefono*/
+
+	.redes{
+		position: absolute;
+		top: 85%;
+		left: 50%;
+		transform: translate(-50% , -50%);
+	}
+}
+
+/*responsive laptops*/
+
+@media screen and (min-width:1024px) and (max-width:1440px){
+	body{
+		min-width: 1024px;
+		max-width: 1440px;
+	}
+	.contenido{
+		width: 100%;
+	}
+
+	.contenido h1{
+		font-size: 55px;
+	}
+
+	.contenido h2{
+		font-size: 40px;
+	}
+
+	.contenido p{
+		font-size: 25px;
+	}
+
+	.contenido img{
+		width:1000px;
+	}
+
+	/*redes telefono*/
+
+	.redes{
+		position: absolute;
+		top: 89%;
+		left: 50%;
+		transform: translate(-50% , -50%);
+	}
+}
